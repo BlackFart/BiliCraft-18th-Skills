@@ -1,13 +1,13 @@
 default:
   menu_item:
     flags:
-      - hide_attributes
+    - hide_attributes
 sources:
   weapon_per_level:
     type: enchanting
     item:
       category: weapon
-    xp: 30
+    xp: 20
     menu_item:
       material: diamond_sword
     unit: '{sources.units.enchant_level}'
@@ -15,7 +15,7 @@ sources:
     type: enchanting
     item:
       category: armor
-    xp: 30
+    xp: 20
     menu_item:
       material: diamond_chestplate
     unit: '{sources.units.enchant_level}'
@@ -23,14 +23,14 @@ sources:
     type: enchanting
     item:
       category: tool
-    xp: 30
+    xp: 20
     menu_item:
       material: diamond_pickaxe
     unit: '{sources.units.enchant_level}'
   book_per_level:
     type: enchanting
     item: book
-    xp: 30
+    xp: 20
     menu_item:
       material: enchanted_book
     unit: '{sources.units.enchant_level}'
@@ -39,7 +39,7 @@ sources:
     left_item: enchanted_book
     right_item: enchanted_book
     multiplier: '{repair_cost}'
-    xp: 12
+    xp: 8
     menu_item:
       material: enchanted_book
     unit: '{sources.units.combine_level}'
@@ -49,11 +49,11 @@ sources:
       category: weapon
     right_item: enchanted_book
     multiplier: '{repair_cost}'
-    xp: 18
+    xp: 10
     menu_item:
       material: iron_sword
       flags:
-        - hide_attributes
+      - hide_attributes
     unit: '{sources.units.combine_level}'
   combine_armor_per_level:
     type: anvil
@@ -61,11 +61,11 @@ sources:
       category: armor
     right_item: enchanted_book
     multiplier: '{repair_cost}'
-    xp: 24
+    xp: 12
     menu_item:
       material: iron_leggings
       flags:
-        - hide_attributes
+      - hide_attributes
     unit: '{sources.units.combine_level}'
   combine_tool_per_level:
     type: anvil
@@ -73,16 +73,16 @@ sources:
       category: tool
     right_item: enchanted_book
     multiplier: '{repair_cost}'
-    xp: 30
+    xp: 20
     menu_item:
       material: iron_shovel
       flags:
-        - hide_attributes
+      - hide_attributes
     unit: '{sources.units.combine_level}'
   grindstone_per_level:
     type: grindstone
     multiplier: '{total_level}'
-    xp: 36
+    xp: 10
     menu_item:
       material: grindstone
     unit: '{sources.units.grindstone_level}'

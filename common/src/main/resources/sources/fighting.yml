@@ -15,7 +15,7 @@ sources:
   cat:
     xp: 1.0
   chicken:
-    xp: 1.0
+    xp: 2.5
   cod:
     xp: 1.0
   cow:
@@ -23,7 +23,7 @@ sources:
   donkey:
     xp: 2.0
   fox:
-    xp: 3.0
+    xp: 1.0
   giant:
     xp: 10.0
     menu_item:
@@ -49,7 +49,7 @@ sources:
   skeleton_horse:
     xp: 3.0
   snow_golem:
-    xp: 3.0
+    xp: 2.0
   squid:
     xp: 2.0
   strider:
@@ -65,91 +65,91 @@ sources:
   bee:
     xp: 3.0
   cave_spider:
-    xp: 5.0
-  dolphin:
     xp: 3.0
+  dolphin:
+    xp: 2.0
   enderman:
-    xp: 7.0
+    xp: 1.5
   iron_golem:
-    xp: 17.0
+    xp: 12.0
   llama:
     xp: 4.0
   piglin:
-    xp: 5.0
-  panda:
-    xp: 5.0
-  polar_bear:
-    xp: 7.0
-  pufferfish:
-    xp: 1.0
-  spider:
-    xp: 5.0
-  wolf:
     xp: 4.0
+  panda:
+    xp: 1.0
+  polar_bear:
+    xp: 1.0
+  pufferfish:
+    xp: 4.0
+  spider:
+    xp: 3.0
+  wolf:
+    xp: 3.0
   zombified_piglin:
     xp: 4.0
   blaze:
-    xp: 10.0
-  creeper:
-    xp: 10.0
-  drowned:
     xp: 7.0
+  creeper:
+    xp: 3.0
+  drowned:
+    xp: 5.0
   elder_guardian:
-    xp: 100.0
+    xp: 50.0
   endermite:
     xp: 5.0
   evoker:
-    xp: 15.0
-  ghast:
-    xp: 17.0
-  guardian:
-    xp: 10.0
-  hoglin:
-    xp: 12.0
-  husk:
     xp: 7.0
+  ghast:
+    xp: 8.0
+  guardian:
+    xp: 9.0
+  hoglin:
+    xp: 6.0
+  husk:
+    xp: 5.0
   illusioner:
-    xp: 17.0
+    xp: 8.0
     menu_item:
       material: evoker_spawn_egg
   magma_cube:
-    xp: 12.0
+    xp: 4.0
   phantom:
-    xp: 10.0
-  piglin_brute:
-    xp: 35.0
-  pillager:
-    xp: 10.0
-  ravager:
     xp: 100.0
+  piglin_brute:
+    xp: 12.0
+  pillager:
+    xp: 7.0
+  ravager:
+    xp: 9.0
   shulker:
-    xp: 15.0
+    xp: 12.0
   silverfish:
     xp: 5.0
   skeleton:
-    xp: 7.0
+    xp: 3.0
   slime:
-    xp: 5.0
+    xp: 3.0
   stray:
-    xp: 8.0
+    xp: 3.0
   vex:
-    xp: 10.0
+    xp: 8.0
   vindicator:
-    xp: 10.0
+    xp: 2.0
   witch:
-    xp: 9.0
+    xp: 3.0
   wither_skeleton:
-    xp: 17.0
+    xp: 5.0
   zoglin:
-    xp: 12.0
+    xp: 3.0
   zombie:
-    xp: 7.0
+    xp: 2.0
   zombie_villager:
-    xp: 7.0
+    xp: 5.0
   ender_dragon:
-    xp: 7000.0
+    xp: 120.0
   wither:
-    xp: 7000.0
+    xp: 20.0
   axolotl:
     xp: 3.5
   glow_squid:
@@ -163,10 +163,10 @@ sources:
   tadpole:
     xp: 1.2
   warden:
-    xp: 1000.0
+    xp: 60.0
   armadillo:
     xp: 3.0
   bogged:
-    xp: 9.0
+    xp: 8.0
   breeze:
     xp: 15.0

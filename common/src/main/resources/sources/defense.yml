@@ -6,14 +6,14 @@ default:
 sources:
   mob_damage:
     damager: mob
-    xp: 1
+    xp: 0.5
     menu_item:
       material: zombie_head
     unit: '{sources.units.damage}'
     include_projectiles: true
   player_damage:
     damager: player
-    xp: 2
+    xp: 1.2
     menu_item:
       material: player_head
     unit: '{sources.units.damage}'

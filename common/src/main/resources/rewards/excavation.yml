@@ -1,12 +1,12 @@
 patterns:
   - type: stat
-    stat: regeneration
-    value: 1
+    stat: luck
+    value: 0.4
     pattern:
-      interval: 1
+      interval: 10
   - type: stat
     stat: strength
-    value: 1
+    value: 0.3
     pattern:
-      interval: 2
+      interval: 20
 levels:

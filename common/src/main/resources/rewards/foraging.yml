@@ -1,12 +1,12 @@
 patterns:
   - type: stat
     stat: strength
-    value: 1
+    value: 0.3
     pattern:
-      interval: 1
+      interval: 20
   - type: stat
     stat: toughness
-    value: 1
+    value: 0.2
     pattern:
-      interval: 2
+      interval: 10
 levels:

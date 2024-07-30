@@ -705,14 +705,14 @@ mana_abilities:
   not_enough_mana: "<yellow>法力不足! <gray>({mana} {mana_unit} 需要)"
 skills:
   farming:
-    name: 草药学
-    desc: "收获农作物以获取草药学 {xp_unit}"
+    name: 农业
+    desc: "收获农作物以获取农业 {xp_unit}"
   foraging:
-    name: 伐树
-    desc: "砍倒树木以获得伐树 {xp_unit}"
+    name: 伐木
+    desc: "砍倒树木以获得伐木 {xp_unit}"
   mining:
-    name: 采掘
-    desc: "挖掘石头和矿物以获得采掘 {xp_unit}"
+    name: 采矿
+    desc: "挖掘石头和矿物以获得采矿 {xp_unit}"
   fishing:
     name: 钓鱼
     desc: "在水边垂钓以获得钓鱼 {xp_unit}"
@@ -720,13 +720,13 @@ skills:
     name: 挖掘
     desc: "用铲子挖砂砾和沙子一类的方块以获得挖掘 {xp_unit}"
   archery:
-    name: 弓箭手
-    desc: "使用弓箭射中生物或玩家以获得弓箭手 {xp_unit}"
+    name: 弓箭
+    desc: "使用弓箭射中生物或玩家以获得弓箭 {xp_unit}"
   defense:
     name: 防御
     desc: "被实体攻击以获得防御 {xp_unit}"
   fighting:
-    name: 战士
+    name: 武艺
     desc: "使用近战武器对实体造成伤害以获得战士 {xp_unit}"
   endurance:
     name: 耐力

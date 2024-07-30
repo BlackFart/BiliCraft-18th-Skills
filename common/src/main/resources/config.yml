@@ -8,24 +8,28 @@
 # Plugin made by Archy
 
 sql:
-  enabled: false
-  type: mysql
-  host: localhost
-  port: 3306
-  database: auraskills
-  username: root
-  password: pass
-  load_delay: 0
-  always_load_on_join: false
-  ssl: false
-  pool:
-    maximum_pool_size: 10
-    minimum_idle: 10
-    connection_timeout: 5000
-    max_lifetime: 1800000
-    keepalive_time: 0
-default_language: en
-languages: [en, es, fr, de, zh-CN, zh-TW, pt-BR, it, cs, pl, uk, ko, nl, ja, ru, id, vi, tr, fi, th]
+default_language: zh-CN
+languages:
+- en
+- es
+- fr
+- de
+- zh-CN
+- zh-TW
+- pt-BR
+- it
+- cs
+- pl
+- uk
+- ko
+- nl
+- ja
+- ru
+- id
+- vi
+- tr
+- fi
+- th
 try_detect_client_language: false
 hooks:
   HolographicDisplays:
@@ -33,8 +37,6 @@ hooks:
   DecentHolograms:
     enabled: true
   LuckPerms:
-    enabled: true
-  Oraxen:
     enabled: true
   PlaceholderAPI:
     enabled: true
@@ -49,9 +51,9 @@ hooks:
   WorldGuard:
     enabled: true
     blocked_regions:
-      - 'Example'
+    - Example
     blocked_check_replace_regions:
-      - 'Example'
+    - Example
   MythicMobs:
     enabled: true
     handle_damage_increase: true
@@ -79,30 +81,29 @@ boss_bar:
   placeholder_api: true
   use_suffix: true
   format:
-    - 'FARMING GREEN PROGRESS'
-    - 'FORAGING RED PROGRESS'
-    - 'MINING PURPLE PROGRESS'
-    - 'FISHING BLUE PROGRESS'
-    - 'EXCAVATION YELLOW PROGRESS'
-    - 'ARCHERY PINK PROGRESS'
-    - 'DEFENSE BLUE PROGRESS'
-    - 'FIGHTING RED PROGRESS'
-    - 'ENDURANCE PURPLE PROGRESS'
-    - 'AGILITY WHITE PROGRESS'
-    - 'ALCHEMY PINK PROGRESS'
-    - 'ENCHANTING PURPLE PROGRESS'
-    - 'SORCERY BLUE PROGRESS'
-    - 'HEALING WHITE PROGRESS'
-    - 'FORGING YELLOW PROGRESS'
+  - FARMING GREEN PROGRESS
+  - FORAGING RED PROGRESS
+  - MINING PURPLE PROGRESS
+  - FISHING BLUE PROGRESS
+  - EXCAVATION YELLOW PROGRESS
+  - ARCHERY PINK PROGRESS
+  - DEFENSE BLUE PROGRESS
+  - FIGHTING RED PROGRESS
+  - ENDURANCE PURPLE PROGRESS
+  - AGILITY WHITE PROGRESS
+  - ALCHEMY PINK PROGRESS
+  - ENCHANTING PURPLE PROGRESS
+  - SORCERY BLUE PROGRESS
+  - HEALING WHITE PROGRESS
+  - FORGING YELLOW PROGRESS
   xp_format: '#.#'
   percent_format: '#.##'
   money_format: '0.00'
-  animate_progress: true
 jobs:
   enabled: false
   selection:
     require_selection: true
-    default_job_limit: 2
+    default_job_limit: 3
     disable_unselected_xp: false
   income:
     use_xp: true
@@ -115,37 +116,6 @@ jobs:
       enabled: false
       interval_ms: 2000
       display_individual: false
-anti_afk:
-  enabled: false
-  logging_enabled: true
-  log_threshold: min_count*4
-  checks:
-    block_a:
-      enabled: true
-      min_count: 100
-    damage_a:
-      enabled: true
-      max_distance: 0.5
-      min_count: 15
-    damage_b:
-      enabled: true
-      min_count: 5
-    damage_c:
-      enabled: true
-      min_count: 40
-    entity_a:
-      enabled: true
-      max_distance: 0.5
-      min_count: 50
-    entity_b:
-      enabled: true
-      min_count: 50
-    entity_c:
-      enabled: true
-      min_count: 100
-    fishing_a:
-      enabled: true
-      min_count: 10
 enable_roman_numerals: false
 damage_holograms:
   enabled: true
@@ -168,7 +138,16 @@ damage_holograms:
   colors:
     default: gray
     critical:
-      digits: [white, yellow, gold, red, dark_red, dark_purple, light_purple, blue, dark_blue]
+      digits:
+      - white
+      - yellow
+      - gold
+      - red
+      - dark_red
+      - dark_purple
+      - light_purple
+      - blue
+      - dark_blue
 leaderboards:
   update_period: 6000
   update_delay: 6000
@@ -177,28 +156,28 @@ enable_skill_commands: true
 check_block_replace:
   enabled: true
   blocked_worlds:
-    - Example
+  - Example
 blocked_worlds:
-  - Example
+- Example
 disabled_worlds:
-  - Example
+- Example
 disable_in_creative_mode: false
 data_validation:
   correct_over_max_level: false
 on_death:
   reset_skills: false
-  reset_xp: false
+  reset_xp: true
 auto_save:
   enabled: true
   interval_ticks: 12000
 leveler:
   title:
-    enabled: true
+    enabled: false
     fade_in: 5
-    stay: 80
+    stay: 40
     fade_out: 5
   sound:
-    enabled: true
+    enabled: false
     type: ENTITY_PLAYER_LEVELUP
     category: MASTER
     volume: 1.0
@@ -206,11 +185,10 @@ leveler:
   double_check_delay: 20
 mana:
   enabled: true
-  cooldown_timer_period: 2
 modifier:
   armor:
     equip_blocked_materials:
-      - EXAMPLE
+    - EXAMPLE
     timer:
       enabled: false
       check_period: 3
@@ -222,7 +200,6 @@ modifier:
   auto_convert_from_legacy: false
 requirement:
   enabled: true
-  override_global: false
   item:
     prevent_tool_use: true
     prevent_weapon_use: true
@@ -245,8 +222,8 @@ critical:
 source:
   grindstone:
     blocked_enchants:
-      - blinding_curse
-      - vanishing_curse
+    - blinding_curse
+    - vanishing_curse
   statistic:
     gain_period_ticks: 12000
   entity:
