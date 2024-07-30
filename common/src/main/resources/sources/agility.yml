@@ -2,13 +2,13 @@ sources:
   jump_per_100:
     type: jumping
     interval: 100
-    xp: 7
+    xp: 10
     menu_item:
       material: feather
     unit: '{sources.units.100_jumps}'
   fall_damage:
     type: damage
-    xp: 1.4
+    xp: 1.2
     cause: fall
     must_survive: true
     use_original_damage: true
@@ -19,7 +19,7 @@ sources:
     type: statistic
     multiplier: 0.01
     statistic: walk_one_cm
-    xp: 0.2
+    xp: 0.5
     minimum_increase: 1000
     menu_item:
       material: iron_boots
@@ -28,7 +28,7 @@ sources:
     type: statistic
     multiplier: 0.01
     statistic: sprint_one_cm
-    xp: 0.06
+    xp: 1.5
     minimum_increase: 1000
     menu_item:
       material: leather_boots
@@ -37,7 +37,7 @@ sources:
     type: statistic
     multiplier: 0.01
     statistic: swim_one_cm
-    xp: 0.6
+    xp: 2.0
     minimum_increase: 1000
     menu_item:
       material: water_bucket

@@ -2,45 +2,50 @@ default:
   type: brewing
   trigger: takeout
   menu_item:
-    material: 'potion'
+    material: potion
     flags:
-      - hide_potion_effects
+    - hide_potion_effects
 sources:
   awkward:
     ingredient: nether_wart
-    xp: 10
+    xp: 3
     menu_item:
       potion_data:
         type: awkward
   regular:
     ingredient:
-      excluded_materials: [redstone, glowstone_dust, nether_wart, gunpowder, dragon_breath]
-    xp: 15
+      excluded_materials:
+      - redstone
+      - glowstone_dust
+      - nether_wart
+      - gunpowder
+      - dragon_breath
+    xp: 6
     menu_item:
       potion_data:
         type: speed
   extended:
     ingredient: redstone
-    xp: 25
+    xp: 8
     menu_item:
       potion_data:
         type: night_vision
   upgraded:
     ingredient: glowstone_dust
-    xp: 25
+    xp: 8
     menu_item:
       potion_data:
         type: strength
   splash:
     ingredient: gunpowder
-    xp: 35
+    xp: 8
     menu_item:
       material: splash_potion
       potion_data:
         type: jump
   lingering:
     ingredient: dragon_breath
-    xp: 50
+    xp: 10
     menu_item:
       material: lingering_potion
       potion_data:
@@ -50,10 +55,14 @@ sources:
     item:
       material: potion
       potion_data:
-        excluded_types: [ mundane, thick, water, awkward ]
+        excluded_types:
+        - mundane
+        - thick
+        - water
+        - awkward
         extended: false
         upgraded: false
-    xp: 20
+    xp: 6
     menu_item:
       material: potion
       potion_data:
@@ -63,9 +72,13 @@ sources:
     item:
       material: potion
       potion_data:
-        excluded_types: [ mundane, thick, water, awkward ]
+        excluded_types:
+        - mundane
+        - thick
+        - water
+        - awkward
         extended: true
-    xp: 30
+    xp: 6
     menu_item:
       material: potion
       potion_data:
@@ -75,9 +88,13 @@ sources:
     item:
       material: potion
       potion_data:
-        excluded_types: [ mundane, thick, water, awkward ]
+        excluded_types:
+        - mundane
+        - thick
+        - water
+        - awkward
         upgraded: true
-    xp: 30
+    xp: 6
     menu_item:
       material: potion
       potion_data:
@@ -87,10 +104,14 @@ sources:
     item:
       material: splash_potion
       potion_data:
-        excluded_types: [ mundane, thick, water, awkward ]
+        excluded_types:
+        - mundane
+        - thick
+        - water
+        - awkward
         extended: false
         upgraded: false
-    xp: 40
+    xp: 8
     menu_item:
       material: splash_potion
       potion_data:
@@ -100,9 +121,13 @@ sources:
     item:
       material: splash_potion
       potion_data:
-        excluded_types: [ mundane, thick, water, awkward ]
+        excluded_types:
+        - mundane
+        - thick
+        - water
+        - awkward
         extended: true
-    xp: 50
+    xp: 8
     menu_item:
       material: splash_potion
       potion_data:
@@ -112,9 +137,13 @@ sources:
     item:
       material: splash_potion
       potion_data:
-        excluded_types: [ mundane, thick, water, awkward ]
+        excluded_types:
+        - mundane
+        - thick
+        - water
+        - awkward
         upgraded: true
-    xp: 50
+    xp: 8
     menu_item:
       material: splash_potion
       potion_data:
@@ -124,10 +153,14 @@ sources:
     item:
       material: lingering_potion
       potion_data:
-        excluded_types: [ mundane, thick, water, awkward ]
+        excluded_types:
+        - mundane
+        - thick
+        - water
+        - awkward
         extended: false
         upgraded: false
-    xp: 60
+    xp: 10
     menu_item:
       material: lingering_potion
       potion_data:
@@ -137,9 +170,13 @@ sources:
     item:
       material: lingering_potion
       potion_data:
-        excluded_types: [ mundane, thick, water, awkward ]
+        excluded_types:
+        - mundane
+        - thick
+        - water
+        - awkward
         extended: true
-    xp: 70
+    xp: 10
     menu_item:
       material: lingering_potion
       potion_data:
@@ -149,9 +186,13 @@ sources:
     item:
       material: lingering_potion
       potion_data:
-        excluded_types: [ mundane, thick, water, awkward ]
+        excluded_types:
+        - mundane
+        - thick
+        - water
+        - awkward
         upgraded: true
-    xp: 70
+    xp: 10
     menu_item:
       material: lingering_potion
       potion_data:
@@ -159,12 +200,12 @@ sources:
   golden_apple:
     type: item_consume
     item: golden_apple
-    xp: 30
+    xp: 9
     menu_item:
       material: golden_apple
   enchanted_golden_apple:
     type: item_consume
     item: enchanted_golden_apple
-    xp: 500
+    xp: 100
     menu_item:
       material: enchanted_golden_apple

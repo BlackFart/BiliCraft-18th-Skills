@@ -5,19 +5,19 @@ default:
 sources:
   cod:
     item:
-      material: 'cod'
+      material: cod
     xp: 25
   salmon:
     item:
-      material: 'salmon'
+      material: salmon
     xp: 60
   tropical_fish:
     item:
-      material: 'tropical_fish'
+      material: tropical_fish
     xp: 750
   pufferfish:
     item:
-      material: 'pufferfish'
+      material: pufferfish
     xp: 115
   treasure:
     item:
